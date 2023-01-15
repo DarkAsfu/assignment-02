@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    background: rgba(255, 144, 14, 0.1);
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container .banner-img{
+    width: 1140px;
+
+}
+.banner-img img{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 102px;
+    align-items: center;
+}
+.nav .logo h3{
+    color: #131313;
+    font-size:45px;
+    font-weight: 700;
+}
+.nav .menu li{
+    list-style: none;
+}
+.nav .menu a{
+    text-decoration: none;
+    padding-left: 45px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+.menu ul{
+    display: flex;
+    
+}
+.banner-details{
+    width: 862px;
+    margin: 0 auto;
+}
+.banner-details h2{
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+.banner-details p,
+.feature-desc,
+.feature-list-desc,
+p{
+    color: #727272;
+    font-size: 16px;
+    font-weight:400;
+    text-align: center;
+    padding: 28px 0;
+}
+.btn{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.banner-img{
+    padding-bottom: 45px;
+}
+
+.feature{
+    display: flex;
+    justify-content: space-between;
+}
+.feature .photo-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: 708px;
+    height: 708px;
+}
+.single-img{
+    width: 342px;
+    height: 342px;
+}
+.second-part{
+    padding-top: 85px;
+    padding-bottom: 130px;
+}
+.feature-info{
+    padding-left: 76px;
+    padding-top: 200px;
+}
+.feature-info .feature-title .fst{
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+.feature-info .feature-title .snd{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.feature-info .feature-title .trd{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FF900E;
+}
+.feature-info .feature-desc,
+.feature-list-desc,
+p {
+    text-align: left;
+}
+.feature-info .btn{
+    text-align: left;
+    padding-top: 28px;
+}
+.third .feature-list .lists{
+    
+}
+.third .feature-list .lists,
+.feature-list-img{
+    width: 50%;
+}
+.feature-list{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-list-img{
+    width: 500px;
+    height: 982px;
+    margin-top: 150px;
+}
+.third .feature-list-img img{
+    width: 100%;
+}
+.feature-list .list{
+    width: 465px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    padding: 0px 30px;
+    padding-top: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.feature-list-heading{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+}
+.feature-list-desc,
+.fact-desc{
+    padding: 20px 0;
+}
+.lists h2,
+.fact-heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left:5px solid #FF900E;
+    padding-left: 21px;
+}
+.lists p{
+    padding-right:40px;
+}
+.button{
+    border: none;
+    background-color: #FF900E;
+    color: #fff;
+    padding: 30px 40px;
+    font-size: 55px;
+    border-radius: 8px;
+    position: relative;
+    top:-127px ;
+    left: -72px;
+    font-weight: 700;
+}
+.button span{
+    font-size: 20px;
+    padding: 0;
+}
+.fact-heading{
+    border: none;
+    padding: 0;
+}
+.boxes{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 180px;
+}
+.boxes .box p{
+    padding: 0;
+}
+.boxes .box{
+    width: 241px;
+    height: 241px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    text-align: center;
+    padding-top:45px ;
+    transition: 0.5s;
+    
+}
+.box p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    transition: 0.5s;
+}
+.box h3{
+    font-weight: 600;
+    font-size: 45px;
+
+}
+.box:hover {
+    background-color: #FF900E;
+    color: #fff;
+}
+.box:hover p {
+    color: #fff;
+}
+.sponsor-logo{
+    padding-top:50px ;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 130px;
+}
+footer h4{
+    text-align: center;
+    background: #FFF4E7;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 38px 0;
+}
