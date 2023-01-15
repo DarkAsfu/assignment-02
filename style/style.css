@@ -11,7 +11,7 @@ main{
     width: 1140px;
     margin: 0 auto;
 }
-
+/* banner section start */
 .container .banner-img{
     width: 1140px;
 
@@ -81,7 +81,9 @@ p{
 .banner-img{
     padding-bottom: 45px;
 }
+/* banner section end */
 
+/* feature style start */
 .feature{
     display: flex;
     justify-content: space-between;
@@ -129,9 +131,9 @@ p {
     text-align: left;
     padding-top: 28px;
 }
-.third .feature-list .lists{
-    
-}
+/* feature style end */
+
+/* services style start */
 .third .feature-list .lists,
 .feature-list-img{
     width: 50%;
@@ -192,6 +194,9 @@ p {
     font-size: 20px;
     padding: 0;
 }
+
+/* service style end */
+/* Fact style start */
 .fact-heading{
     border: none;
     padding: 0;
@@ -234,12 +239,15 @@ p {
 .box:hover p {
     color: #fff;
 }
+/* Finised fact */
+/* sponsor style start */
 .sponsor-logo{
     padding-top:50px ;
     display: flex;
     justify-content: space-between;
     padding-bottom: 130px;
 }
+/* footer style  */
 footer h4{
     text-align: center;
     background: #FFF4E7;
